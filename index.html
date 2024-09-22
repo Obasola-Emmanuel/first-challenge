@@ -12,6 +12,45 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+
+    body {
+      box-sizing: border-box;
+      background-color: #e0e0ff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .code {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background-color: #fff;
+      width: 40%;
+      margin: auto;
+      margin-top: 15%;
+      border-radius: 10px;
+    }
+    img {
+      height: auto;
+      width: 80%;
+      margin: 15px;
+      border-radius: 10px;
+    }
+    h3 {
+      margin: 5px 10px;
+    }
+    p {
+      color: silver;
+      font-size: 15px;
+      margin: 5px 10px 50px;
+    }
+    @media screen and (max-width:500px) {
+      .code {
+        width: 90%;
+      }
+    }
   </style>
 </head>
 <body>
@@ -24,5 +63,13 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Obasola Emmanuel</a>.
   </div>
+  <div class="container">
+    <div class="code">
+      <img src="images/image-qr-code.png" alt="qr code">
+      <h3>improve your front-end skills by building projects</h3>
+      <p>Scan the QR code to visit front-end mentor and take your coding skills to the next level</p>
+    </div>
+  </div>
+
 </body>
 </html>
